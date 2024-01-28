@@ -1,6 +1,10 @@
+# Forum Application
+
+## Project Description
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Installation and Running
 
 First, run the development server:
 
@@ -20,17 +24,56 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## How to Contribute
 
-To learn more about Next.js, take a look at the following resources:
+Contributions to this project are always welcome. Here's how you can help enhance its features or make improvements:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Fork the Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Start by forking the project repository, then clone your fork using:
 
-## Deploy on Vercel
+```bash
+git clone https://github.com/Zane-007/The-Wild-Oasis.git
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Create a New Branch
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+It's recommended to create a new branch for each feature or fix:
+
+```bash
+git checkout -b name-of-your-new-branch
+```
+
+### Make Your Changes
+
+Implement your desired modifications or additions to the code.
+
+### Commit Your Changes
+
+Once done, save your changes:
+
+```bash
+git commit -m "Provide a brief description of your changes here"
+```
+
+### Push to Your Branch
+
+Push your updates to your branch:
+
+```bash
+git push origin name-of-your-new-branch
+```
+
+### Open a Pull Request
+
+Navigate to the original project repository on GitHub and submit a pull request. Ensure you give a detailed explanation of the changes you've made.
+
+Your contribution will be reviewed, and if it meets the project's standards and objectives, it'll be merged. Thanks in advance for your effort and input!
+
+## Contact Me
+
+If you have questions or wish to discuss the project further, don't hesitate to reach out:
+
+- **Email:** [wenziyang007@gmail.com](mailto:wenziyang007@gmail.com)
+
+I'm always open to feedback, collaboration, or general inquiries. Looking forward to hearing from you!
