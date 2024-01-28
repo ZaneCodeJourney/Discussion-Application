@@ -2,13 +2,13 @@
 
 ## Project Description
 
-This is a [Next.js](https://nextjs.org/) project like reddit for discussing technical topics, with functions such as authentication, creating topics and posts, commenting, replying to a post
+This is a [Next.js](https://nextjs.org/) project like reddit for discussing technical topics, with functions such as authentication, creating topics and posts, commenting, replying to a post.
 
 ### UI Overview
 
 Here's a glimpse of the Application.
 ![Main View](public/readmefile/home.png)
-_HomePageof the application_
+_HomePage of the application_
 
 ## Technical Stack
 
