@@ -2,7 +2,24 @@
 
 ## Project Description
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project like reddit for discussing technical topics, with functions such as authentication, creating topics and posts, commenting, replying to a post
+
+### UI Overview
+
+Here's a glimpse of the Application.
+![Main View](public/readmefile/home.png)
+_HomePageof the application_
+
+## Technical Stack
+
+This application utilizes several modern web technologies, including:
+
+- **React (with Hooks)**: Used for building the user interface and handling component state and side effects.
+- **Next.js**: A React framework that enables functionality such as server-side rendering and generating static websites for React-based web applications. It offers efficient routing and built-in CSS support.
+- **Prisma**: It serves as an ORM (Object-Relational Mapper) for TypeScript, simplifying database queries and migrations.
+- **TailwinCSS**: Utilized for writing CSS in JavaScrip, enabling a more compositional approach to styling without leaving the HTML.
+- **NextUI**: Provides many useful components.
+- **Next Auth**: A complete solution for adding authentication and authorization to this applications.
 
 ## Installation and Running
 
