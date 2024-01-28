@@ -23,16 +23,28 @@ This application utilizes several modern web technologies, including:
 
 ## Installation and Running
 
-First, run the development server:
+Firstly, install dependency and set up database:
+
+```bash
+npm install
+npx prisma init --datasource-provider sqlite
+npx prisma migrate dev
+```
+
+Open [https://github.com/settings/applications/new](https://github.com/settings/applications/new) to Register your new OAuth application.
+
+Then, create a file with name .env.local, and set up your OAuth Information like below:
+
+```
+GITHUB_CLIENT_ID=""
+GITHUB_CLIENT_SECRET=""
+AUTH_SECRET=""
+```
+
+Finally, run the project:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
